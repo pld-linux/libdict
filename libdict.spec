@@ -6,6 +6,7 @@ Release:	1
 License:	BSD-like
 Group:		Development/Libraries
 Source0:	ftp://ftp.dict.org/pub/dict/%{name}-%{version}.tar.gz
+# Source0-md5:	42cc35f1bef8bbfbf7cecad716337081
 URL:		http://www.dict.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
