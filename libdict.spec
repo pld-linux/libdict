@@ -2,12 +2,15 @@ Summary:	Library for interacting with RFC2229 dictionary servers
 Summary(pl):	Biblioteka do komunikacji z serwerami s³ówników zgodnymi z RFC2229
 Name:		libdict
 Version:	0.9
-Release:	1
+Release:	2
 License:	BSD-like
 Group:		Development/Libraries
 Source0:	ftp://ftp.dict.org/pub/dict/%{name}-%{version}.tar.gz
 # Source0-md5:	42cc35f1bef8bbfbf7cecad716337081
+Patch0:		%{name}-c++.patch
 URL:		http://www.dict.org/
+# for test program
+BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -22,6 +25,7 @@ reprezentuje du¿± funkcjê serwera dict.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %{__make} -C src \
