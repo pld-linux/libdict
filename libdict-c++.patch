@@ -1,0 +1,11 @@
+--- libdict-0.9/src/examples/cpptest.cpp.orig	2002-03-15 20:03:40.000000000 +0100
++++ libdict-0.9/src/examples/cpptest.cpp	2004-03-31 21:50:03.240978288 +0200
+@@ -32,6 +32,8 @@
+ #include <unistd.h>
+ #include "libdict-wrap.hpp"
+ 
++using namespace std;
++
+ int main(int argc, char **argv) {
+ 	class dictConn dc;
+ 	char optch;
