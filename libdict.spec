@@ -1,5 +1,5 @@
 Summary:	Library for interacting with RFC2229 dictionary servers
-Summary(pl):	Biblioteka do komunikacji z serwerami s³ówników zgodnymi z RFC2229
+Summary(pl.UTF-8):   Biblioteka do komunikacji z serwerami sÅ‚Ã³wnikÃ³w zgodnymi z RFC2229
 Name:		libdict
 Version:	0.9
 Release:	2
@@ -18,10 +18,10 @@ libdict is a small C library that provides access to RFC2229
 dictionary servers. This is done through a series of functions, each
 representing a major function of the dict server.
 
-%description -l pl
-libdict to ma³a biblioteka w C daj±ca dostêp do serwerów s³owników
-zgodnych z RFC2229. S³u¿y do tego szereg funkcji, z których ka¿da
-reprezentuje du¿± funkcjê serwera dict.
+%description -l pl.UTF-8
+libdict to maÅ‚a biblioteka w C dajÄ…ca dostÄ™p do serwerÃ³w sÅ‚ownikÃ³w
+zgodnych z RFC2229. SÅ‚uÅ¼y do tego szereg funkcji, z ktÃ³rych kaÅ¼da
+reprezentuje duÅ¼Ä… funkcjÄ™ serwera dict.
 
 %prep
 %setup -q
