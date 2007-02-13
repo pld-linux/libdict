@@ -1,5 +1,5 @@
 Summary:	Library for interacting with RFC2229 dictionary servers
-Summary(pl.UTF-8):   Biblioteka do komunikacji z serwerami słówników zgodnymi z RFC2229
+Summary(pl.UTF-8):	Biblioteka do komunikacji z serwerami słówników zgodnymi z RFC2229
 Name:		libdict
 Version:	0.9
 Release:	2
